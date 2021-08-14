@@ -1,0 +1,46 @@
+﻿@using TableTemplateAssignment.Models;
+@model List<TableTemplateAssignment.Models.StudentsMapper>
+
+<div class="row">
+
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">DOB</th>
+                <th scope="col">Fee</th>
+                <th scope="col">Address</th>
+                <th scope="col">Age</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @if (Model != null && Model.Any())
+            {
+                foreach (StudentsMapper student in Model)
+                {
+                    <tr>
+                        <th scope="row">@student.Id</th>
+                        <td>@student.Name</td>
+                        <td>@student.DOB</td>
+                        <td>@student.Fees</td>
+                        <td>@student.Address</td>
+                        <td>@student.Age</td>
+                        <td><button class="btn btn-primary editRecord" data-toggle="modal" data-target="#studentModel" data-id="@student.Id">Edit</button></td>
+                        <td><button class="btn btn-primary">Delete</button></td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="alignCenter"><td colspan="6"><b>No Records Found</b></td></tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

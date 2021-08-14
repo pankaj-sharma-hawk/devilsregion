@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableTemplateAssignment", "TableTemplateAssignment.csproj", "{C5390157-3919-4695-B268-2E835C95EF28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5390157-3919-4695-B268-2E835C95EF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5390157-3919-4695-B268-2E835C95EF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5390157-3919-4695-B268-2E835C95EF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5390157-3919-4695-B268-2E835C95EF28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5796A57D-BE92-469D-8273-AB271DD508CD}
+	EndGlobalSection
+EndGlobal
